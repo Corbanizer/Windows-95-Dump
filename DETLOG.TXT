@@ -1,0 +1,1739 @@
+[System Detection: 06/14/04 - 07:07:34]
+Parameters "", InfParams "", Flags=01000233
+SDMVer=0400.1111, WinVer=070a0400, Build=04.00.1111, WinFlags=00000c29
+SkipList=
+DetectList=
+LogCrash: crash log not found or invalid
+DetectClass: skip class ADAPTER
+Estimated number of detection functions = 135
+Detected: *PNP0C01\0000 = [1] System board
+Checking for: System Bus
+CheckInt86xCrash: int 1a,AX=b101,rc=0
+Detected: *PNP0C00\0000 = [2] Plug and Play BIOS
+SetVar: PNPBIOS=
+Checking for: Advanced Power Management Support
+Detected: *PNP0C05\0000 = [3] Advanced Power Management support
+VerifyHW: manual device Infrared\0000: Built-in Infrared port on laptop or desktop
+VerifyHW: manual device Net\0000: Dial-Up Adapter
+VerifyHW: manual device Net\0001: AOL Adapter
+VerifyHW: manual device Printer\0000: Panasonic KX-P2023
+Number of verify functions called = 3
+Devices verified: 3
+ConfigMG device: HTREE\RESERVED\0
+ConfigMG device: ROOT\*PNP0C01\0000
+ConfigMG device: ROOT\*PNP0C00\0000
+ConfigMG device: skip ForceHWVerify device ROOT\*PNP0C00\0000
+ConfigMG device: BIOS\*PNP0000\00
+RegAvoidRes: *PNP0000\0000
+	IO=20-21(ffff:0:0),a0-a1(ffff:0:0)
+	IRQ=2
+ConfigMG device: BIOS\*PNP0200\01
+RegAvoidRes: *PNP0200\0000
+	IO=0-f(ffff:0:0),81-83(ffff:0:0),87-87(ffff:0:0),89-8b(ffff:0:0),8f-8f(ffff:0:0),c0-df(ffff:0:0)
+	DMA=4
+ConfigMG device: BIOS\*PNP0100\02
+RegAvoidRes: *PNP0100\0000
+	IO=40-43(ffff:0:0)
+	IRQ=0
+ConfigMG device: BIOS\*PNP0B00\03
+RegAvoidRes: *PNP0B00\0000
+	IO=70-71(ffff:0:0)
+	IRQ=8
+ConfigMG device: BIOS\*PNP0800\04
+RegAvoidRes: *PNP0800\0000
+	IO=61-61(ffff:0:0)
+ConfigMG device: BIOS\*PNP0303\05
+RegAvoidRes: *PNP0303\0000
+	IO=60-60(ffff:0:0),64-64(ffff:0:0)
+	IRQ=1
+ConfigMG device: BIOS\*PNP0C01\06
+RegAvoidRes: *PNP0C01\0001
+	Mem=0-9ffff(ffffffff:0:1),eb000-fffff(ffffffff:0:0)
+ConfigMG device: BIOS\*PNP0400\07
+RegAvoidRes: *PNP0400\0000
+	IO=378-37b(3ff:400:0)
+	IRQ=7
+ConfigMG device: BIOS\*PNP0501\08
+RegAvoidRes: *PNP0501\0000
+	IO=3f8-3ff(3ff:400:0)
+	IRQ=4
+ConfigMG device: BIOS\*PNP0501\09
+RegAvoidRes: *PNP0501\0001
+	IO=2f8-2ff(3ff:400:0)
+	IRQ=3
+ConfigMG device: BIOS\*PNP0700\0A
+RegAvoidRes: *PNP0700\0000
+	IO=3f2-3f2(3ff:400:0),3f4-3f5(3ff:400:0),3f7-3f7(3ff:400:0)
+	IRQ=6
+	DMA=2
+ConfigMG device: FLOP\GENERIC_NEC__FLOPPY_DISK_\BIOS&*PNP0700&0A00
+ConfigMG device: BIOS\*PNP0600\0B
+RegAvoidRes: *PNP0600\0000
+	IO=1f0-1f7(3ff:400:0),3f6-3f6(3ff:400:0)
+	IRQ=14
+ConfigMG device: ESDI\GENERIC_IDE__DISK_TYPE95_\BIOS&*PNP0600&0B00
+ConfigMG device: BIOS\*PNP0930\0C
+RegAvoidRes: *PNP0930\0000
+	IO=3b0-3bb(3ff:400:0),3c0-3df(3ff:400:0)
+	Mem=a0000-bffff(ffffffff:0:1),e0000-eafff(ffffffff:0:0)
+ConfigMG device: MONITOR\DEFAULT_MONITOR\0001
+ConfigMG device: BIOS\*PNP0F13\0D
+RegAvoidRes: *PNP0F13\0000
+	IRQ=12
+ConfigMG device: BIOS\*PNP0C04\0E
+RegAvoidRes: *PNP0C04\0000
+	IO=f0-ff(ffff:0:0)
+	IRQ=13
+ConfigMG device: BIOS\*PNP0E01\0F
+RegAvoidRes: *PNP0E01\0000
+	IO=3e0-3e1(3ff:400:0)
+	IRQ=11
+ConfigMG device: PCMCIA\CIRRUS_LOGIC-FAX_MODEM-F874\0
+RegAvoidRes: CIRRUS_LOGIC-FAX_MODEM-F874\0000
+	IO=3e8-3ef(ffff:0:0)
+	IRQ=10
+ConfigMG device: MODEMWAVE\14.4_DATA-FAX_MODEM_VOICE\PCMCIA&CIRRUS_LOGIC-FAX_MODEM-F874&0
+ConfigMG device: BIOS\*PNP0A00\10
+ConfigMG device: ISAPNP\READDATAPORT\0
+ConfigMG device: ROOT\*PNP0C05\0000
+ConfigMG device: skip ForceHWVerify device ROOT\*PNP0C05\0000
+ConfigMG device: ROOT\INFRARED\0000
+ConfigMG device: INFRARED\COM\ROOT&INFRARED&0000
+ConfigMG device: INFRARED\LPT\ROOT&INFRARED&0000
+ConfigMG device: ROOT\NET\0000
+ConfigMG device: NETWORK\MSTCP\0000
+ConfigMG device: NETWORK\NWLINK\0000
+ConfigMG device: NETWORK\VREDIR\0001
+ConfigMG device: NETWORK\NWREDIR\0000
+ConfigMG device: NETWORK\NETBEUI\0000
+ConfigMG device: NETWORK\VREDIR\0000
+ConfigMG device: ROOT\NET\0001
+ConfigMG device: NETWORK\MSTCP\0001
+ConfigMG device: NETWORK\VREDIR\0002
+ConfigMG device: ROOT\PRINTER\0000
+ConfigMG device: PCMCIA\PCCARD\HTREE&ROOT&0
+RegAvoidRes: PCCARD\0000
+	Mem=800000-800fff(ffffffff:0:0)
+Checking for: Manual Devices
+Checking for: Programmable Interrupt Controller
+QueryIOMem: Caller=DETECTPIC, rcQuery=2
+	IO=20-21,a0-a1
+Checking for: Direct Memory Access Controller
+QueryIOMem: Caller=DETECTDMA, rcQuery=2
+	IO=0-f,81-83,87-87,89-8b,8f-8f,c0-df
+Checking for: System CMOS/Real Time Clock
+QueryIOMem: Caller=DETECTCMOS, rcQuery=2
+	IO=70-71
+Checking for: System Timer
+QueryIOMem: Caller=DETECTTIMER, rcQuery=2
+	IO=40-43
+Checking for: System Speaker
+QueryIOMem: Caller=DETECTSPEAKER, rcQuery=2
+	IO=61-61
+Checking for: Numeric Data Processor
+QueryIOMem: Caller=DETECTNDP, rcQuery=2
+	IO=f0-ff
+Checking for: Logitech SoundMan
+Checking for: System Board
+Checking for: Motherboard Resources
+Checking for: Keyboard
+QueryIOMem: Caller=DETECTKBD, rcQuery=2
+	IO=60-60,64-64
+Checking for: Intel 596 compatible Network Adapter
+Checking for: HP Omnibook 600 series
+Checking for: System Bus
+CheckInt86xCrash: int 1a,AX=b101,rc=0
+Checking for: Advanced Power Management Support
+Checking for: Dockable Portable
+Checking for: PS/2 Style Mouse
+QueryIRQDMA: Caller=DETECTPS2MOUSE, rcQuery=2
+	IRQ=12
+Checking for: ATI Ultra Pro Turbo (Mach 64) Display Adapter
+QueryIOMem: Caller=DETECTMACH64, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: ATI Ultra Pro/Plus (Mach 32) Display Adapter
+QueryIOMem: Caller=DETECTMACH32, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: ATI Ultra (Mach 8) Display Adapter
+QueryIOMem: Caller=DETECTMACH8, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Cirrus Logic Memory-mapped Display Adapter
+QueryIOMem: Caller=DETECTCIRRUSMMAPPED, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Cirrus Logic Laptop VGA Display Adapter
+QueryIOMem: Caller=DETECTCIRRUSLAPTOP, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Cirrus Logic VGA Display Adapter
+QueryIOMem: Caller=DETECTCIRRUSDESKTOP, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: S3 801/805/928/864/964 Display Adapter
+QueryIOMem: Caller=DETECTS3801, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: S3 Display Adapter
+QueryIOMem: Caller=DETECTS3, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Western Digital VGA Display Adapter
+QueryIOMem: Caller=DETECTWDDESKTOP, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Western Digital Laptop VGA Display Adapter
+QueryIOMem: Caller=DETECTWDLAPTOP, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: XGA Display Adapter
+QueryIOMem: Caller=DETECTXGA, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: XGA/2 Display Adapter
+QueryIOMem: Caller=DETECTXGA2, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Tseng Labs W32 Display Adapter
+QueryIOMem: Caller=DETECTTSENGW32, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Tseng Labs Display Adapter
+QueryIOMem: Caller=DETECTTSENGW128, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Compaq Qvision Display Adapter
+QueryIOMem: Caller=DETECTQV, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Compaq Advanced VGA Display Adapter
+QueryIOMem: Caller=DETECTAVGA, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Chips & Technology Accelerated Display Adapter
+QueryIOMem: Caller=DETECTCT545, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Matrox MGA Display Adapter
+QueryIOMem: Caller=DETECTMATROX, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Compaq Qvision 2000 Display Adapter
+QueryIOMem: Caller=DETECTCPQ2000, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Tseng Labs ET4000 Display Adapter
+QueryIOMem: Caller=DETECTTSENG, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: ATI VGA Wonder Display Adapter
+QueryIOMem: Caller=DETECTWONDER, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Oak Technology VGA Display Adapter
+QueryIOMem: Caller=DETECTOAK, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Trident VGA Display Adapter
+QueryIOMem: Caller=DETECTTRIDENT, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Chips & Technology Super VGA Display Adapter
+QueryIOMem: Caller=DETECTCTSVGA, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Video Seven VGA Display Adapter
+QueryIOMem: Caller=DETECTV7, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Standard VGA Display Adapter
+QueryIOMem: Caller=DETECTVGA, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Default Standard VGA Display Adapter
+QueryIOMem: Caller=DETECTASSUMEVGA, rcQuery=2
+	IO=3b0-3bb,3c0-3df
+Checking for: Ungermann Bass NIUPC Network Adapter
+NCD: detecting net card *pnp811c
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=380-38f
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=220-22f
+NetAvoidIO: 220-23f
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=230-23f
+NetIO: 230-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTUBNIUPC, rcQuery=0
+	IO=270-27f
+Checking for: Ungermann Bass PCNIU Network Adapter
+NCD: detecting net card *pnp8119
+Checking for: Ungermann Bass PCNIUEX128 Network Adapter
+NCD: detecting net card *pnp811a
+Checking for: Ungermann Bass PCNIUEX512 Network Adapter
+NCD: detecting net card *pnp811b
+Checking for: Ungermann Bass NIUPCTR Network Adapter
+NCD: detecting net card *pnp811f
+Checking for: Ungermann Bass PCNIC Network Adapter
+NCD: detecting net card *pnp811e
+Checking for: Ungermann Bass NIUPCEOTP Network Adapter
+NCD: detecting net card *pnp8120
+Checking for: DEC DEPCA Network Adapter
+NCD: detecting net card *pnp80e7
+QueryIOMem: Caller=DETECTDECDEPCA, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECDEPCA, rcQuery=0
+	IO=200-20f
+Checking for: DEC DEPCAJR Network Adapter
+NCD: detecting net card *pnp80e8
+QueryIOMem: Caller=DETECTDECDEPCAJR, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECDEPCAJR, rcQuery=0
+	IO=200-20f
+Checking for: DEC (DE200) EtherWorks Turbo Network Adapter
+NCD: detecting net card *pnp80e9
+QueryIOMem: Caller=DETECTDECTURBO, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECTURBO, rcQuery=0
+	IO=200-20f
+Checking for: DEC DEPCAJR/TP Network Adapter
+NCD: detecting net card *pnp80ea
+QueryIOMem: Caller=DETECTDECDEPCAJRTP, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECDEPCAJRTP, rcQuery=0
+	IO=200-20f
+Checking for: DEC (DE200) EtherWorks Turbo/TP Network Adapter
+NCD: detecting net card *pnp80eb
+QueryIOMem: Caller=DETECTDECTURBOTP, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECTURBOTP, rcQuery=0
+	IO=200-20f
+Checking for: DEC (DE202) EtherWorks Turbo/TP_BNC Network Adapter
+NCD: detecting net card *pnp80ec
+QueryIOMem: Caller=DETECTDECDE202, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECDE202, rcQuery=0
+	IO=200-20f
+Checking for: DEC (DE102) EtherWorks LC/TP_BNC Network Adapter
+NCD: detecting net card *pnp80ed
+QueryIOMem: Caller=DETECTDECDE102, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECDE102, rcQuery=0
+	IO=200-20f
+Checking for: DEC EE102 Network Adapter
+NCD: detecting net card *pnp80ee
+QueryIOMem: Caller=DETECTDECEE102, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTDECEE102, rcQuery=0
+	IO=200-20f
+Checking for: Zenith Data Systems Z-Note Network Adapter
+NCD: detecting net card *pnp8209
+Checking for: IBM Token Ring Network Adapter
+NCD: detecting net card *pnp8327
+QueryIOMem: Caller=DETECTIBMTOKENRING, rcQuery=0
+	IO=a20-a23
+QueryIOMem: Caller=DETECTIBMTOKENRING, rcQuery=0
+	IO=a24-a27
+Checking for: Thomas Conrad TC4043 Network Adapter
+NCD: detecting net card *pnp8281
+Checking for: SMC Network Adapter
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=200-21f
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=220-23f
+NetIO: 220-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=240-25f
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=260-27f
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=280-29f
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=2a0-2bf
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=2c0-2df
+QueryIOMem: Caller=DETECTSMC, rcQuery=4
+	IO=2e0-2ff
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTSMC, rcQuery=4
+	IO=360-37f
+QueryIOMem: Caller=DETECTSMC, rcQuery=0
+	IO=380-39f
+QueryIOMem: Caller=DETECTSMC, rcQuery=4
+	IO=3a0-3bf
+QueryIOMem: Caller=DETECTSMC, rcQuery=2
+	IO=3c0-3df
+QueryIOMem: Caller=DETECTSMC, rcQuery=4
+	IO=3e0-3ff
+Checking for: RadiSys EXM-10 Network Adapter
+NCD: detecting net card *pnp821d
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=280-29f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=200-21f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=220-23f
+NetIO: 220-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=240-25f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=260-27f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=2a0-2bf
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=2c0-2df
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=380-39f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=4
+	IO=2e0-2ff
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=4
+	IO=360-37f
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=4
+	IO=3a0-3bf
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=2
+	IO=3c0-3df
+QueryIOMem: Caller=DETECTRADISYS, rcQuery=4
+	IO=3e0-3ff
+Checking for: HP PC LAN 16TP Plus Network Adapter
+NCD: detecting net card *pnp8158
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=2c0-2df
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=2a0-2bf
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=280-29f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=240-25f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=220-23f
+NetIO: 220-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=1c0-1df
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=1a0-1bf
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=180-19f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=140-15f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=120-13f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=4
+	IO=3a0-3bf
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=380-39f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=4
+	IO=360-37f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=4
+	IO=2e0-2ff
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=260-27f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=200-21f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=4
+	IO=1e0-1ff
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=160-17f
+QueryIOMem: Caller=DETECTHPTWISTPLUS, rcQuery=0
+	IO=100-11f
+Checking for: HP PC LAN 16TL Plus Network Adapter
+NCD: detecting net card *pnp8159
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=2c0-2df
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=2a0-2bf
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=280-29f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=240-25f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=220-23f
+NetIO: 220-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=1c0-1df
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=1a0-1bf
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=180-19f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=140-15f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=120-13f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=4
+	IO=3a0-3bf
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=380-39f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=4
+	IO=360-37f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=4
+	IO=2e0-2ff
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=260-27f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=200-21f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=4
+	IO=1e0-1ff
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=160-17f
+QueryIOMem: Caller=DETECTHPTLANPLUS, rcQuery=0
+	IO=100-11f
+Checking for: Thomas Conrad TC4045 Network Adapter
+NCD: detecting net card *pnp8101
+Checking for: Novell/Anthem NE1000 Network Adapter
+NCD: detecting net card *pnp80d3
+QueryIOMem: Caller=DETECTNE1000, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTNE1000, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTNE1000, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTNE1000, rcQuery=4
+	IO=360-37f
+Checking for: Artisoft AE-1 Network Adapter
+NCD: detecting net card *pnp8137
+QueryIOMem: Caller=DETECTARTISOFTAE1, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTARTISOFTAE1, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTARTISOFTAE1, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTARTISOFTAE1, rcQuery=4
+	IO=360-37f
+Checking for: Novell/Anthem NE2000 Network Adapter
+NCD: detecting net card *pnp80d4
+QueryIOMem: Caller=DETECTNE2000, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTNE2000, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTNE2000, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTNE2000, rcQuery=4
+	IO=360-37f
+Checking for: Artisoft AE-2 Network Adapter
+NCD: detecting net card *pnp8138
+QueryIOMem: Caller=DETECTARTISOFTAE2, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTARTISOFTAE2, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTARTISOFTAE2, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTARTISOFTAE2, rcQuery=4
+	IO=360-37f
+Checking for: Zenith Data Systems NE2000 Compatible Network Adapter
+NCD: detecting net card *pnp820a
+QueryIOMem: Caller=DETECTZSTATION, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTZSTATION, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTZSTATION, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTZSTATION, rcQuery=4
+	IO=360-37f
+Checking for: Cabletron E2000 Series DNI Network Adapter
+NCD: detecting net card *pnp81ff
+QueryIOMem: Caller=DETECTCTRON20, rcQuery=0
+	IO=380-39f
+QueryIOMem: Caller=DETECTCTRON20, rcQuery=0
+	IO=220-23f
+NetIO: 220-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTCTRON20, rcQuery=0
+	IO=280-29f
+QueryIOMem: Caller=DETECTCTRON20, rcQuery=0
+	IO=300-31f
+Checking for: Thomas Conrad TC5043 Network Adapter
+NCD: detecting net card *pnp8102
+QueryIOMem: Caller=DETECTTC5043, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTTC5043, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTTC5043, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTTC5043, rcQuery=4
+	IO=360-37f
+Checking for: Novell NE2000 Compatible Network Adapter
+NCD: detecting net card *pnp80d6
+QueryIOMem: Caller=DETECTNE2CLONE, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTNE2CLONE, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTNE2CLONE, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTNE2CLONE, rcQuery=4
+	IO=360-37f
+Checking for: Novell NE1000 Compatible Network Adapter
+NCD: detecting net card *pnp80d5
+QueryIOMem: Caller=DETECTNE1CLONE, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTNE1CLONE, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTNE1CLONE, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTNE1CLONE, rcQuery=4
+	IO=360-37f
+Checking for: 3Com EtherLink III Network Adapter
+NCD: detecting net card *pnp80f7
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=110-11f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=4
+	IO=370-37f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=380-38f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=390-39f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=3a0-3af
+QueryIOMem: Caller=DETECTELNK3, rcQuery=4
+	IO=3b0-3bf
+QueryIOMem: Caller=DETECTELNK3, rcQuery=1
+	IO=3c0-3cf
+QueryIOMem: Caller=DETECTELNK3, rcQuery=1
+	IO=3d0-3df
+QueryIOMem: Caller=DETECTELNK3, rcQuery=4
+	IO=3e0-3ef
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=220-22f
+NetIO: 220-22f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=230-23f
+NetIO: 230-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=270-27f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=280-28f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=290-29f
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=2a0-2af
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=2b0-2bf
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=2c0-2cf
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=2d0-2df
+QueryIOMem: Caller=DETECTELNK3, rcQuery=0
+	IO=2e0-2ef
+QueryIOMem: Caller=DETECTELNK3, rcQuery=4
+	IO=2f0-2ff
+Checking for: Intel EtherExpress 16 or 16TP Network Adapter
+NCD: detecting net card *pnp812d
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTEE16, rcQuery=4
+	IO=370-37f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=220-22f
+NetIO: 220-22f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=230-23f
+NetIO: 230-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTEE16, rcQuery=0
+	IO=270-27f
+Checking for: Intel 595 compatible Network Adapter
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=4
+	IO=370-37f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=220-22f
+NetIO: 220-22f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=230-23f
+NetIO: 230-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTINTEL595, rcQuery=0
+	IO=270-27f
+Checking for: 3Com EtherLink II or IITP (8/16-bit) Network Adapter
+NCD: detecting net card *pnp80f3
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=280-28f
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=2a0-2af
+QueryIOMem: Caller=DETECTELNKII, rcQuery=0
+	IO=2e0-2ef
+Checking for: Exos 105 Network Adapter
+NCD: detecting net card *pnp8277
+QueryIOMem: Caller=DETECTEXOS105, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTEXOS105, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTEXOS105, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTEXOS105, rcQuery=4
+	IO=360-37f
+Checking for: Novell/Anthem NE1500T Network Adapter
+NCD: detecting net card *pnp80d7
+QueryIOMem: Caller=DETECTNE1500, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTNE1500, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTNE1500, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTNE1500, rcQuery=4
+	IO=360-37f
+Checking for: Racal NI6510 Network Adapter
+NCD: detecting net card *pnp8113
+QueryIOMem: Caller=DETECTRI6510, rcQuery=0
+	IO=300-317
+QueryIOMem: Caller=DETECTRI6510, rcQuery=0
+	IO=320-337
+QueryIOMem: Caller=DETECTRI6510, rcQuery=0
+	IO=340-357
+QueryIOMem: Caller=DETECTRI6510, rcQuery=0
+	IO=360-377
+Checking for: AMD AM2100/AM1500T-based Network Adapter
+NCD: detecting net card *pnp8231
+QueryIOMem: Caller=DETECTAM2100, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTAM2100, rcQuery=0
+	IO=320-33f
+QueryIOMem: Caller=DETECTAM2100, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTAM2100, rcQuery=4
+	IO=360-37f
+Checking for: Everex SpeedLink/PC16 Network Adapter
+NCD: detecting net card *pnp814b
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=380-38f
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=390-39f
+QueryIOMem: Caller=DETECTEVEREX, rcQuery=0
+	IO=3a0-3af
+Checking for: Kodiak 8/16 Network Adapter
+NCD: detecting net card *pnp81cd
+QueryIOMem: Caller=DETECTKODIAK, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTKODIAK, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTKODIAK, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTKODIAK, rcQuery=0
+	IO=210-21f
+Checking for: Kodiak Quad Network Adapter
+NCD: detecting net card *pnp81ce
+QueryIOMem: Caller=DETECTKODIAKQUAD, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTKODIAKQUAD, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTKODIAKQUAD, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTKODIAKQUAD, rcQuery=0
+	IO=210-21f
+Checking for: Kodiak 8/16 UTP Network Adapter
+NCD: detecting net card *pnp81cf
+QueryIOMem: Caller=DETECTKODIAKUTP, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTKODIAKUTP, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTKODIAKUTP, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTKODIAKUTP, rcQuery=0
+	IO=210-21f
+Checking for: Kodiak Dual Network Adapter
+NCD: detecting net card *pnp81d0
+QueryIOMem: Caller=DETECTKODIAKDUAL, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTKODIAKDUAL, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTKODIAKDUAL, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTKODIAKDUAL, rcQuery=0
+	IO=210-21f
+Checking for: Kodiak Serve Board Network Adapter
+NCD: detecting net card *pnp81d1
+QueryIOMem: Caller=DETECTKODIAKSERVE, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTKODIAKSERVE, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTKODIAKSERVE, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTKODIAKSERVE, rcQuery=0
+	IO=210-21f
+Checking for: Kodiak NotePort Network Adapter
+NCD: detecting net card *pnp81d2
+QueryIOMem: Caller=DETECTKODIAKNOTE, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTKODIAKNOTE, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTKODIAKNOTE, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTKODIAKNOTE, rcQuery=0
+	IO=210-21f
+Checking for: Cabletron E2100 Series DNI Network Adapter
+NCD: detecting net card *pnp8200
+QueryIOMem: Caller=DETECTCTRON21, rcQuery=0
+	IO=380-39f
+QueryIOMem: Caller=DETECTCTRON21, rcQuery=0
+	IO=220-23f
+NetIO: 220-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTCTRON21, rcQuery=0
+	IO=280-29f
+QueryIOMem: Caller=DETECTCTRON21, rcQuery=0
+	IO=300-31f
+Checking for: 3Com EtherLink I Network Adapter
+NCD: detecting net card *pnp80f2
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=4
+	IO=370-37f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=380-38f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=390-39f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=3a0-3af
+QueryIOMem: Caller=DETECTELNKI, rcQuery=4
+	IO=3e0-3ef
+QueryIOMem: Caller=DETECTELNKI, rcQuery=4
+	IO=3f0-3ff
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=220-22f
+NetIO: 220-22f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=230-23f
+NetIO: 230-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=270-27f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=280-28f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=290-29f
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=2a0-2af
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=2b0-2bf
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=2c0-2cf
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=2d0-2df
+QueryIOMem: Caller=DETECTELNKI, rcQuery=0
+	IO=2e0-2ef
+QueryIOMem: Caller=DETECTELNKI, rcQuery=4
+	IO=2f0-2ff
+QueryIOMem: Caller=DETECTELNKI, rcQuery=4
+	IO=3b0-3bf
+QueryIOMem: Caller=DETECTELNKI, rcQuery=1
+	IO=3c0-3cf
+QueryIOMem: Caller=DETECTELNKI, rcQuery=1
+	IO=3d0-3df
+Checking for: 3Com EtherLink 16 Network Adapter
+NCD: detecting net card *pnp80f6
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=380-38f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=390-39f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=3a0-3af
+QueryIOMem: Caller=DETECTELNK16, rcQuery=4
+	IO=3e0-3ef
+QueryIOMem: Caller=DETECTELNK16, rcQuery=4
+	IO=3e0-3ef
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=230-23f
+NetIO: 230-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=230-23f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=280-28f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2a0-2af
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2b0-2bf
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2c0-2cf
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2d0-2df
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2e0-2ef
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=380-38f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=390-39f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=3a0-3af
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=280-28f
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2a0-2af
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2b0-2bf
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2c0-2cf
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2d0-2df
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=2e0-2ef
+QueryIOMem: Caller=DETECTELNK16, rcQuery=0
+	IO=100-100
+Checking for: SMC ARCNET Network Adapter
+NCD: detecting net card *pnp80dd
+Checking for: 3Com EtherLink Plus Network Adapter
+NCD: detecting net card *pnp80f1
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=300-30f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=320-32f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=360-36f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=4
+	IO=370-37f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=380-38f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=390-39f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=3a0-3af
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=4
+	IO=3b0-3bf
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=1
+	IO=3c0-3cf
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=1
+	IO=3d0-3df
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=4
+	IO=3e0-3ef
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=4
+	IO=3f0-3ff
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=220-22f
+NetIO: 220-22f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=230-23f
+NetIO: 230-23f overlapped with internal avoid map
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=270-27f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=280-28f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=290-29f
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=2a0-2af
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=2b0-2bf
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=2c0-2cf
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=2d0-2df
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=0
+	IO=2e0-2ef
+QueryIOMem: Caller=DETECTELNKPLUS, rcQuery=4
+	IO=2f0-2ff
+Checking for: Future Domain TMC-950 SIC-based SCSI Host Adapter
+QueryIOMem: Caller=DETECTFD8XX, rcQuery=0
+	Mem=c9c00-c9fff
+QueryIOMem: Caller=DETECTFD8XX, rcQuery=0
+	Mem=cbc00-cbfff
+QueryIOMem: Caller=DETECTFD8XX, rcQuery=0
+	Mem=cfc00-cffff
+QueryIOMem: Caller=DETECTFD8XX, rcQuery=0
+	Mem=dfc00-dffff
+QueryIOMem: Caller=DETECTFD8XX, rcQuery=1
+	Mem=e9c00-e9fff
+QueryIOMem: Caller=DETECTFD8XX, rcQuery=1
+	Mem=ebc00-ebfff
+Checking for: Plus Hardcard
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=c8000-c9fff
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=ca000-cbfff
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=cc000-cdfff
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=ce000-cffff
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=d0000-d1fff
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=d2000-d3fff
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=d4000-d5fff
+QueryIOMem: Caller=DETECTHARDCARD, rcQuery=0
+	Mem=d6000-d7fff
+Checking for: Always IN-2000 SCSI Host Adapter
+QueryIOMem: Caller=DETECTIN2000, rcQuery=0
+	IO=100-10f
+QueryIOMem: Caller=DETECTIN2000, rcQuery=0
+	IO=110-11f
+QueryIOMem: Caller=DETECTIN2000, rcQuery=0
+	IO=200-20f
+QueryIOMem: Caller=DETECTIN2000, rcQuery=0
+	IO=220-22f
+Checking for: Standard Floppy Controller
+QueryIOMem: Caller=DETECTFLOPPY, rcQuery=4
+	IO=3f2-3f5
+Checking for: Serial Communication Port
+QueryIOMem: Caller=DETECTCOM, rcQuery=2
+	IO=3f8-3ff
+QueryIOMem: Caller=DETECTCOM, rcQuery=2
+	IO=2f8-2ff
+QueryIOMem: Caller=DETECTCOM, rcQuery=2
+	IO=3e8-3ef
+QueryIOMem: Caller=DETECTCOM, rcQuery=0
+	IO=2e8-2ef
+Checking for: Inport Mouse
+QueryIOMem: Caller=DETECTINPORTMOUSE, rcQuery=0
+	IO=23c-23f
+QueryIOMem: Caller=DETECTINPORTMOUSE, rcQuery=0
+	IO=238-23b
+QueryIOMem: Caller=DETECTINPORTMOUSE, rcQuery=0
+	IO=234-237
+QueryIOMem: Caller=DETECTINPORTMOUSE, rcQuery=0
+	IO=230-233
+Checking for: Serial Mouse
+GetMouseDrvInfo: found mouse driver mouse.drv
+Checking for: UltraStor 14x SCSI Host Adapter
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=330-33f
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=310-31f
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=230-23f
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=140-14f
+QueryIOMem: Caller=DETECTUSC14X, rcQuery=0
+	IO=130-13f
+Checking for: Future Domain TMC-18xx SIC-based SCSI Host Adapter
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=140-14f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=150-15f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=160-16f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=170-17f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=1800-180f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=2800-280f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=3800-380f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=4800-480f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=5800-580f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=6800-680f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=7800-780f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=8800-880f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=9800-980f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=a800-a80f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=b800-b80f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=c800-c80f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=d800-d80f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=e800-e80f
+QueryIOMem: Caller=DETECTFD18XX, rcQuery=0
+	IO=f800-f80f
+Checking for: BusLogic SCSI Host Adapter
+QueryIOMem: Caller=DETECTBUSLOGIC, rcQuery=0
+	IO=330-333
+QueryIOMem: Caller=DETECTBUSLOGIC, rcQuery=0
+	IO=334-337
+QueryIOMem: Caller=DETECTBUSLOGIC, rcQuery=0
+	IO=234-237
+QueryIOMem: Caller=DETECTBUSLOGIC, rcQuery=0
+	IO=134-137
+QueryIOMem: Caller=DETECTBUSLOGIC, rcQuery=0
+	IO=130-133
+QueryIOMem: Caller=DETECTBUSLOGIC, rcQuery=0
+	IO=230-233
+Checking for: Adaptec AHA-154x/AHA-164x SCSI Host Adapter
+QueryIOMem: Caller=DETECTAHA154X, rcQuery=0
+	IO=330-333
+QueryIOMem: Caller=DETECTAHA154X, rcQuery=0
+	IO=334-337
+QueryIOMem: Caller=DETECTAHA154X, rcQuery=0
+	IO=234-237
+QueryIOMem: Caller=DETECTAHA154X, rcQuery=0
+	IO=134-137
+QueryIOMem: Caller=DETECTAHA154X, rcQuery=0
+	IO=130-133
+QueryIOMem: Caller=DETECTAHA154X, rcQuery=0
+	IO=230-233
+Checking for: Adaptec AIC-6x60 ISA Single-Chip SCSI Host Adapter
+QueryIOMem: Caller=DETECTAIC6X60, rcQuery=0
+	IO=140-15f
+QueryIOMem: Caller=DETECTAIC6X60, rcQuery=0
+	IO=340-35f
+Checking for: DPT 20x1 ISA SCSI Host Adapter
+QueryIOMem: Caller=DETECTDPTISA, rcQuery=4
+	IO=1f0-1f8
+QueryIOMem: Caller=DETECTDPTISA, rcQuery=0
+	IO=170-178
+QueryIOMem: Caller=DETECTDPTISA, rcQuery=0
+	IO=330-338
+QueryIOMem: Caller=DETECTDPTISA, rcQuery=0
+	IO=230-238
+Checking for: Standard IDE/ESDI Hard Disk Controller
+QueryIOMem: Caller=DETECTESDI, rcQuery=2
+	IO=1f0-1f7
+QueryIOMem: Caller=DETECTESDI, rcQuery=0
+	IO=170-177
+Checking for: Adaptec AHA274x/AIC-777x EISA SCSI Host Adapter
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=c00-cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=1c00-1cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=2c00-2cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=3c00-3cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=4c00-4cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=5c00-5cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=6c00-6cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=7c00-7cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=8c00-8cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=9c00-9cff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=ac00-acff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=bc00-bcff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=cc00-ccff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=dc00-dcff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=ec00-ecff
+QueryIOMem: Caller=DETECTAIC777X, rcQuery=0
+	IO=fc00-fcff
+Checking for: Parallel Printer Port
+QueryIOMem: Caller=DETECTLPT, rcQuery=0
+	IO=3bc-3be
+Checking for: Xircom PE3 Network Adapter (VerifyKey=3bc)
+QueryIOMem: Caller=DETECTLPT, rcQuery=0
+	IO=3bc-3be
+Checking for: Trantor T3x8 SCSI Adapter (VerifyKey=3bc)
+QueryIOMem: Caller=DETECTLPT, rcQuery=0
+	IO=3bc-3be
+QueryIOMem: Caller=DETECTLPT, rcQuery=1
+	IO=378-37a
+Checking for: Xircom PE3 Network Adapter (VerifyKey=378)
+QueryIOMem: Caller=DETECTLPT, rcQuery=1
+	IO=378-37a
+Checking for: Trantor T3x8 SCSI Adapter (VerifyKey=378)
+QueryIOMem: Caller=DETECTLPT, rcQuery=1
+	IO=378-37a
+QueryIOMem: Caller=DETECTLPT, rcQuery=0
+	IO=278-27a
+Checking for: Xircom PE3 Network Adapter (VerifyKey=278)
+QueryIOMem: Caller=DETECTLPT, rcQuery=0
+	IO=278-27a
+Checking for: Trantor T3x8 SCSI Adapter (VerifyKey=278)
+QueryIOMem: Caller=DETECTLPT, rcQuery=0
+	IO=278-27a
+Checking for: Intel PCIC Compatible PCMCIA Controller
+QueryIOMem: Caller=DETECTPCIC, rcQuery=2
+	IO=3e0-3e1
+QueryIOMem: Caller=DETECTPCIC, rcQuery=0
+	IO=3e2-3e3
+QueryIOMem: Caller=DETECTPCIC, rcQuery=0
+	IO=3e4-3e5
+Checking for: Bus Mouse
+QueryIOMem: Caller=DETECTBUSMOUSE, rcQuery=0
+	IO=23c-23f
+Checking for: Iomega PC2x 8-bit SCSI Host Adapter
+QueryIOMem: Caller=DETECTPC2X, rcQuery=0
+	IO=340-343
+QueryIOMem: Caller=DETECTPC2X, rcQuery=0
+	IO=350-353
+QueryIOMem: Caller=DETECTPC2X, rcQuery=0
+	IO=360-363
+QueryIOMem: Caller=DETECTPC2X, rcQuery=0
+	IO=370-373
+QueryIOMem: Caller=DETECTPC2X, rcQuery=0
+	IO=348-34b
+QueryIOMem: Caller=DETECTPC2X, rcQuery=0
+	IO=358-35b
+QueryIOMem: Caller=DETECTPC2X, rcQuery=0
+	IO=368-36b
+Checking for: OPTi MediaCHIPS (82C928 & 82C929)
+QueryIOMem: Caller=DETECTOPTIMEDIACHIPS, rcQuery=0
+	IO=f8d-f93
+Checking for: Media Vision Pro Audio Spectrum
+QueryIOMem: Caller=DETECTPAS, rcQuery=0
+	IO=201-201
+QueryIOMem: Caller=DETECTPAS, rcQuery=0
+	IO=9a01-9a01,388-38b,b88-b8b,f88-f8b,1388-138b,8388-838b,bf88-bf8b,f388-f38b
+Checking for: Media Vision Jazz
+SetVar: SkipGUSResources=
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=201-201
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=380-381
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=220-22f
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=230-23f
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTJAZZ, rcQuery=0
+	IO=330-331
+FindJazz: Attempting wake up (0220, 0330)
+FindJazz: Failed wake up.
+Checking for: Sound Blaster Compatible
+QueryIOMem: Caller=DETECTSB, rcQuery=0
+	IO=210-21f
+QueryIOMem: Caller=DETECTSB, rcQuery=0
+	IO=220-22f
+QueryIOMem: Caller=DETECTSB, rcQuery=0
+	IO=230-23f
+QueryIOMem: Caller=DETECTSB, rcQuery=0
+	IO=240-24f
+QueryIOMem: Caller=DETECTSB, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTSB, rcQuery=0
+	IO=260-26f
+QueryIOMem: Caller=DETECTSB, rcQuery=0
+	IO=280-28f
+Checking for: Windows Sound System
+QueryIOMem: Caller=DETECTWSS, rcQuery=0
+	IO=530-537
+QueryIOMem: Caller=DETECTWSS, rcQuery=0
+	IO=604-60b
+QueryIOMem: Caller=DETECTWSS, rcQuery=0
+	IO=e80-e87
+QueryIOMem: Caller=DETECTWSS, rcQuery=0
+	IO=f40-f47
+Checking for: Adlib Compatible (MIDI)
+QueryIOMem: Caller=DETECTADLIB, rcQuery=0
+	IO=388-38b
+Checking for: AuraVision VxP500 Compatible Video Capture Adapter
+QueryIOMem: Caller=DETECTVXP500, rcQuery=0
+	IO=500-501
+QueryIOMem: Caller=DETECTVXP500, rcQuery=0
+	IO=600-601
+QueryIOMem: Caller=DETECTVXP500, rcQuery=0
+	IO=700-701
+Checking for: Trantor T13B 8-bit SCSI Host Adapter
+QueryIOMem: Caller=DETECTT13B, rcQuery=0
+	IO=350-35f
+QueryIOMem: Caller=DETECTT13B, rcQuery=0
+	IO=340-34f
+QueryIOMem: Caller=DETECTT13B, rcQuery=0
+	IO=250-25f
+QueryIOMem: Caller=DETECTT13B, rcQuery=0
+	IO=240-24f
+Checking for: MPU-401 Compatible (MIDI)
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=200-201
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=210-211
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=220-221
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=230-231
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=240-241
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=250-251
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=260-261
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=270-271
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=300-301
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=310-311
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=320-321
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=330-331
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=332-333
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=334-335
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=336-337
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=340-341
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=350-351
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=360-361
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=370-371
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=390-391
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=3a0-3a1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=1
+	IO=3d0-3d1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=2
+	IO=3e0-3e1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=200-201
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=210-211
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=220-221
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=230-231
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=240-241
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=250-251
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=260-261
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=270-271
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=300-301
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=310-311
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=320-321
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=330-331
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=332-333
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=334-335
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=336-337
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=340-341
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=350-351
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=360-361
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=370-371
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=390-391
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=3a0-3a1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=200-201
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=210-211
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=220-221
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=230-231
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=240-241
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=250-251
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=260-261
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=270-271
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=300-301
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=310-311
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=320-321
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=330-331
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=332-333
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=334-335
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=336-337
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=340-341
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=350-351
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=360-361
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=370-371
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=390-391
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=3a0-3a1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=200-201
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=210-211
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=220-221
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=230-231
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=240-241
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=250-251
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=260-261
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=270-271
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=300-301
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=310-311
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=320-321
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=330-331
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=332-333
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=334-335
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=336-337
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=340-341
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=350-351
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=360-361
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=370-371
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=390-391
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=3a0-3a1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=200-201
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=210-211
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=220-221
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=230-231
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=240-241
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=250-251
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=260-261
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=270-271
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=300-301
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=310-311
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=320-321
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=330-331
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=332-333
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=334-335
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=336-337
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=340-341
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=350-351
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=360-361
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=370-371
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=390-391
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=3a0-3a1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=200-201
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=210-211
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=220-221
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=230-231
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=240-241
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=250-251
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=260-261
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=270-271
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=300-301
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=310-311
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=320-321
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=330-331
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=332-333
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=334-335
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=336-337
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=340-341
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=350-351
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=360-361
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=370-371
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=390-391
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=3a0-3a1
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=200-201
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=210-211
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=220-221
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=230-231
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=240-241
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=250-251
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=260-261
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=270-271
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=300-301
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=310-311
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=320-321
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=330-331
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=332-333
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=334-335
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=336-337
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=340-341
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=350-351
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=360-361
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=370-371
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=390-391
+QueryIOMem: Caller=DETECTMPU401, rcQuery=0
+	IO=3a0-3a1
+Checking for: Databook PCMCIA Controller
+QueryIOMem: Caller=DETECTDBK, rcQuery=0
+	IO=220-23f
+QueryIOMem: Caller=DETECTDBK, rcQuery=0
+	IO=240-25f
+QueryIOMem: Caller=DETECTDBK, rcQuery=0
+	IO=280-29f
+QueryIOMem: Caller=DETECTDBK, rcQuery=0
+	IO=2c0-2df
+QueryIOMem: Caller=DETECTDBK, rcQuery=0
+	IO=300-31f
+QueryIOMem: Caller=DETECTDBK, rcQuery=0
+	IO=340-35f
+QueryIOMem: Caller=DETECTDBK, rcQuery=0
+	IO=380-39f
+Number of functions called = 135
+Devices detected: 0

@@ -1,0 +1,48 @@
+NETDI: ClassInstall (0x6 on 0x358e:0xa88) on AOL Adapter at Enum\Root\Net\0001
+NETDI: Examining class Net
+NETDI: Found Enum\Root\Net\0001 in registry
+NETDI: NdiCreate(AOL Adapter) OK
+NETDI: Found Enum\Root\Net\0000 in registry
+NETDI: NdiCreate(Dial-Up Adapter) OK
+NETDI: Examining class NetTrans
+NETDI: Found Enum\Network\MSTCP\0001 in registry
+NETDI: NdiCreate(TCP/IP) OK
+NETDI: Found Enum\Network\MSTCP\0000 in registry
+NETDI: NdiCreate(TCP/IP) OK
+NETDI: Found Enum\Network\NETBEUI\0000 in registry
+NETDI: NdiCreate(NetBEUI) OK
+NETDI: Found Enum\Network\NWLINK\0001 in registry
+NETDI: NdiCreate(IPX/SPX-compatible Protocol) OK
+NETDI: Found Enum\Network\NWLINK\0000 in registry
+NETDI: NdiCreate(IPX/SPX-compatible Protocol) OK
+NETDI: Examining class NetClient
+NETDI: Found Enum\Network\NWREDIR\0000 in registry
+NETDI: NwMigrDoCreateAction(3) called
+NETDI: ChangeLine: No matches found.
+NETDI: ChangeLine: No matches found.
+NETDI: NdiCreate(Client for NetWare Networks) OK
+NETDI: Found Enum\Network\VREDIR\0000 in registry
+NETDI: NdiCreate(Client for Microsoft Networks) OK
+NETDI: no bindings; removed Enum\Network\NWLINK\0001
+NETDI: dif_FirstTimeSetup
+NETDI: SetDefaultTransport: Couldn't determine transport
+NETDI: ClassInstall(0x6) end
+NETDI: NETDI: lpRegLogConf = 0x0
+NETDI: ClassInstall (0x9 on 0x358e:0xa88) on AOL Adapter at Enum\Root\Net\0001
+NETDI: Validating Client for Microsoft Networks at Enum\Network\VREDIR\0000, rc = 0x0
+NETDI: Validating Client for NetWare Networks at Enum\Network\NWREDIR\0000, rc = 0x0
+NETDI: Validating IPX/SPX-compatible Protocol at Enum\Network\NWLINK\0000, rc = 0x0
+NETDI: Validating IPX/SPX-compatible Protocol at Enum\Network\NWLINK\0001, rc = 0x0
+NETDI: Validating NetBEUI at Enum\Network\NETBEUI\0000, rc = 0x0
+NETDI: Validating TCP/IP at Enum\Network\MSTCP\0000, rc = 0x0
+NETDI: Validating TCP/IP at Enum\Network\MSTCP\0001, rc = 0x0
+NETDI: Validating Dial-Up Adapter at Enum\Root\Net\0000, rc = 0x0
+NETDI: Validating AOL Adapter at Enum\Root\Net\0001, rc = 0x0
+NETDI: ClassInstall(0x9) end
+NETDI: ClassInstall (0xa on 0x358e:0xa88) on AOL Adapter at Enum\Root\Net\0001
+NETDI: Wrote p.ini:DriverName=nwlink$, sect: nwlink$
+NETDI: Wrote p.ini:DriverName=NETBEUI$, sect: NETBEUI$
+NETDI: ClassInstall(0xa) end
+NETDI: ClassInstall (0xc on 0x358e:0xa88) on AOL Adapter at Enum\Root\Net\0001
+NETDI: ClassInstall(0xc) end
+
